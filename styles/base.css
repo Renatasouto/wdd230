@@ -11,7 +11,6 @@ body {
 }
 
 header {
-	background-color: #5183A3;
     color:white;
 	display: flex;
 	align-items: center;
@@ -21,6 +20,8 @@ header {
     text-align: center;
     max-width: 767px;
     margin: 0;
+    color: #0a4061;
+    background-color: rgb(188, 215, 229);
 }
 
 h1 {
@@ -28,11 +29,8 @@ h1 {
 }
 
 nav {
-	background-color: #65a0c4;
 	margin: 0 auto;
-    border-bottom: #0a4061 solid 5px;
-    border-right: #0a4061 solid 5px;
-    border-left: #0a4061 solid 5px;
+    border: #0a4061 solid 5px;
     font-family: 'Anton', sans-serif;
     font-size: 20px;
 }
@@ -42,8 +40,9 @@ nav ul {
 }
 
 nav a {
+    background-color: #0a4061;
 	display: block;
-	color: #fff;
+	color: white;
 	text-align: center;
 	padding: 1rem;
 	text-decoration: none;
@@ -51,16 +50,17 @@ nav a {
 
 nav a:hover {
 	background-color: white;
-    color:#65a0c4;
+    color: #0a4061;
 }
 
 .container {
+    margin-bottom: 3px;
     justify-content: center;
     align-items: center;
-    background-color: #5183A3;
     display: flex;
 	text-align: center;
     border: #0a4061 solid 5px;
+    background-color: rgb(188, 215, 229);
 }
 
 img {
@@ -70,7 +70,6 @@ img {
 }
 
 footer {
-    background-color: #65a0c4;
     color: white;
 	margin: 0 auto;
     border: #0a4061 solid 5px;
@@ -81,6 +80,7 @@ footer {
 	justify-content: center;
     flex-direction: column;
 	padding: 20px;
+    background-color: #0a4061;
 }
 
 .p1{
@@ -111,7 +111,8 @@ h2 {
     font-family: 'Anton', sans-serif;
     padding: 15px;
     text-align: center;
-    background-color: #9abcda;
+    background-color: #0a4061;
+    color: white;
 }
 
 .content {
@@ -125,14 +126,19 @@ h2 {
 
 #titlepage {
     font-size: 40px;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Luckiest Guy', cursive;
     color: #0a4061;
+    margin-top: 20px;
 }
 
 #lastModified {
-    color: black;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 17px;
+}
+
+.colorLink {
+    color: #0a4061;
 }
 
 
