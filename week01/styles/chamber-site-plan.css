@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    justify-content: center;
+    padding: 1%;
+    background-color: #E7D9CF;
+}
+
+:root {
+    --primary-color: #E7D9CF;
+    --secondary-color: #8CB7DC;
+    --paragraph-color-on-color: black;
+    --paragraph-background-color: #E7D9CF;
+    --nav-link-color: black;
+    --nav-background-color: #E7D9CF;
+    --nav-hover-link-color: black;
+    --nav-hover-background-color: #8CB7DC;
+
+    /*----------------------------------*/
+
+    --title-font: 'Anton', sans-serif;
+    --paragraph-font: 'Inter', sans-serif;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.colors th {
+  background-color: #999;
+  border: 0;
+}
+
+.colors td{
+  width: 25%;
+  height: 3em;
+}
+
+.primary {
+    background-color: var(--primary-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+}
+
+p.colored {
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-color);
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    padding:1em;
+    min-width: px;
+    text-decoration: none;
+    padding: 10px; 
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);  
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+#paragraphFont {
+    font-family: var(--paragraph-font);
+}
+
+#titleFont {
+    font-family: var(--title-font);
+}
+
+footer {
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    background-color: #E7D9CF;
+    padding: 1%;
+}
+
+h2 {
+    text-decoration: underline;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+p, ol {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-bottom: 30px;
+    list-style-type: none;
+}
+
+#img1 {
+    width: 200px;
+    height: 400px;
+    margin-bottom: 3%;
+}
+
+#img2 {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 5%;
+}
+
+body {
+    margin: 20px;
+}
