@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin: 10px;
+}
+
+header {
+	background-color: #5183A3;
+    color:white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+    font-family: 'Dancing Script', cursive;  
+    text-align: center;
+    max-width: 767px;
+    margin: 0;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+nav {
+	background-color: #65a0c4;
+	margin: 0 auto;
+    border-bottom: #0a4061 solid 5px;
+    border-right: #0a4061 solid 5px;
+    border-left: #0a4061 solid 5px;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: white;
+    color:#65a0c4;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    background-color: #5183A3;
+    display: flex;
+	text-align: center;
+    border: #0a4061 solid 5px;
+}
+
+img {
+    border-radius: 60px;
+    height: auto; 
+    margin-right: 30px; 
+}
+
+footer {
+    background-color: #65a0c4;
+    color: white;
+	margin: 0 auto;
+    border: #0a4061 solid 5px;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    flex-direction: column;
+	padding: 20px;
+}
+
+.p1{
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+
+main {
+   display: grid;
+   grid-template-columns: 60% 40%;
+   grid-gap: 20px;
+   padding: 20px;
+   margin-right: 20px; 
+}
+
+.card {
+    margin-top: 10%;
+    margin: 0;
+}
+
+h2 {
+    grid-column: span 2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-family: 'Anton', sans-serif;
+    padding: 15px;
+    text-align: center;
+    background-color: #9abcda;
+
+}
+
+.content {
+    padding: 15px;
+    list-style-type: none;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    color: #0a4061;
+    background-color: rgb(188, 215, 229);
+}
+
+#titlepage {
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    color: #0a4061;
+}
+
+#lastModified {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+
+
