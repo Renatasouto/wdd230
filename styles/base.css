@@ -66,6 +66,7 @@ nav a:hover {
 img {
     border-radius: 60px;
     height: auto; 
+    width: auto;
     margin-right: 30px; 
 }
 
