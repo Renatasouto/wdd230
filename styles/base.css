@@ -94,12 +94,10 @@ main {
    grid-template-columns: 60% 40%;
    grid-gap: 20px;
    padding: 20px;
-   margin-right: 20px; 
 }
 
 .card {
-    margin-top: 10%;
-    margin: 0;
+    margin: 20px;
 }
 
 h2 {
