@@ -240,4 +240,5 @@ h2 {
 .dark-mode .content {
     background-color: #fff; 
     color: #333; 
+    border:#0a4061 solid 10px;
 }
