@@ -1,4 +1,3 @@
-/* Estilos adicionais para telas maiores */
 @media screen and (min-width: 768px) {
     nav ul {
       display: flex;
@@ -6,5 +5,54 @@
     nav ul li {
       flex: 1 1 100%;
     }
+
+    main {
+      display: grid;
+      grid-template-columns: 60% 40%;
+      grid-gap: 0;
+    }
+
+    header {
+      color:white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      font-family: 'Dancing Script', cursive;  
+      text-align: center;
+      max-width: 767px;
+      color: #0a4061;
+      background-color: rgb(188, 215, 229);
   }
+
+    #theme-button {
+      cursor: pointer;
+      padding: 15px 10px;
+      background-color: #333; 
+      color: #fff; 
+      border: none;
+      border-radius: 5px;
+      margin-left: 50%;
+  }
+  
+  @media (min-width: 37.5em) {
+  
+    #menu {
+      display: none; 
+    }
+  
+    .navigation {
+      flex-direction: row;
+    }
+  
+    .navigation li {
+      display: block;
+      flex: 1 1 100%;
+    }
+    
+    .stuff {
+      margin: 1rem auto;
+    }
+  }
+
   

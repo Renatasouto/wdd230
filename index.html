@@ -17,32 +17,41 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel="stylesheet" href="styles/normalize.css">
 </head>
 <body>
   <div class="container">
       <header>
         <img src="images/myprofilepic.jpeg" alt="My Profile Image">
         <h1>Renata Santiago</h1>
+        <div>
+          <button id="theme-button">
+            <i class="bi bi-sun"></i>
+            <i class="bi bi-moon"></i>
+          </button>
+        </div>
       </header>
     </div>
     <nav>
-        <ul>
+      <button id="menu"></button>
+	      <ul class="navigation">
           <li><a href="home.html">Home</a></li>
           <li><a href="chamber.html">Chamber</a></li>
           <li><a href="site-plan.html">Site Plan</a></li>
           <li><a href="form.html">Form</a></li>
         </ul>
     </nav>
+    <br>
     <main>
       <h2 id="titlepage">WDD 230: Web Frontend Development</h2>
         <section class="card">
           <h3 class="title">Learning Activities</h3>
           <ul class="content">
             <li>Week 01: <a class="colorLink" href="https://renatasouto.github.io/wdd230/week01/holygrail.html">Layout</a> | <a class="colorLink" href="https://renatasouto.github.io/wdd230/week01/media-query.html">Media Query</a> | <a class="colorLink" href="https://codepen.io/Renatasouto/pen/RwEVmer.html">JS Pen</a> | <a class="colorLink" href="https://renatasouto.github.io/wdd230/week01/chamber-site-plan.html">Chamber Site Plan</a></li>
-            <li>Week 02: <a class="colorLink" href="https://renatasouto.github.io/wdd230/week02/design.html">Design</a> | <a class="colorLink" href="https://codepen.io/Renatasouto/pen/rNoYKvW?editors=1010">Code Pen</a> | <a class="colorLink" href="https://renatasouto.github.io/wdd230/week02/bom.html">DOM Manipulation</a></li>
+            <li>Week 02: <a class="colorLink" href="https://renatasouto.github.io/wdd230/week02/bom.html">Design</a> | <a class="colorLink" href="https://codepen.io/Renatasouto/pen/rNoYKvW?editors=1010">Code Pen</a> | <a class="colorLink" href="https://codepen.io/Renatasouto/pen/rNoYKvW?editors=1010">DOM Manipulation</a></li>
             <li>Week 03:</li>
             <li>Week 04:</li>
             <li>Week 05:</li>
@@ -58,6 +67,8 @@
       <p>&copy; <span id="currentYear"></span> - Renata Santiago - Brazil</p>
       <p id="lastModified"></p>
     </footer>
-    <script src="scripts/getDates.js"></script>
+    <script src="scripts/darkMode.js"></script>
+    <script src="scripts/darkMode.js" defer></script>
+    <script src="scripts/hamMenu.js" defer></script>
 </body>
 </html>
