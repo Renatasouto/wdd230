@@ -4,16 +4,6 @@
 	box-sizing: border-box;
 }
 
-.hero-text {
-    position: absolute;
-    top: 50%; /* Ajuste a altura vertical conforme necessário */
-    left: 50%; /* Ajuste a posição horizontal conforme necessário */
-    transform: translate(-50%, -50%); /* Centralize vertical e horizontalmente */
-    background-color: rgba(0, 0, 0, 0.5); /* Plano de fundo semi-transparente */
-    padding: 20px; /* Espaçamento interno */
-    color: #fff; /* Cor do texto */
-}
-
 .hero-image {
     height: 350px;
     background-position: center top;
@@ -21,7 +11,6 @@
 }
 
 header {
-    background-image: url('caminho-para-sua-hero-image.jpg');
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -37,7 +26,7 @@ header h1 {
 
 header p {
     font-size: 18px;
-    margin-bottom: 1opx;
+    margin-bottom: 10px;
 }
 
 nav {
