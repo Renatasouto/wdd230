@@ -159,6 +159,9 @@ button#menu {
 .cta-section h2 {
     font-size: 28px;
     padding-bottom: 30px;
+    padding-top: 20px;
+    background-color: #8CB7DC;
+
 }
 
 .cta-section p {
