@@ -67,7 +67,8 @@ footer {
 	justify-content: center;
     flex-direction: column;
 	padding: 20px;
-    background-color: #8CB7DC;;
+    background-color: #8CB7DC;
+    position:absolute;
 }
 
 .contact-info {
