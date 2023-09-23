@@ -3,18 +3,23 @@ document.addEventListener('DOMContentLoaded', function () {
     const event2Button = document.querySelector('.event-section li:nth-child(2) .more-info-button');
     const eventButtons = document.querySelectorAll('.more-info-button');
 
-    event2Button.addEventListener('click', function () {
-        if (event2Description.style.display === 'none' || event2Description.style.display === '') {
-            event2Description.style.display = 'block';
-        } else {
-            event2Description.style.display = 'none';
-        }
-    });
+    if (event2Description) {
+        event2Button.addEventListener('click', function () {
+            if (event2Description.style.display === 'none' || event2Description.style.display === '') {
+                event2Description.style.display = 'block';
+            } else {
+                event2Description.style.display = 'none';
+            }
+        });
+    }
 
     eventButtons.forEach(function (button) {
         button.addEventListener('click', function () {
             const eventDescription = this.previousElementSibling.querySelector('.event-description');
-            eventDescription.classList.toggle('hidden');
+            if (eventDescription) {
+                eventDescription.classList.toggle('hidden');
+            }
         });
     });
 });
+
