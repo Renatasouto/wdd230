@@ -25,11 +25,22 @@ async function getWeatherData() {
         // Converter a temperatura de Celsius para Fahrenheit
         const fahrenheit = data.main.temp;
 
-        // Atualize os elementos do DOM com os dados climáticos em Fahrenheit
-        weatherIcon.src = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
-        weatherDescription.textContent = data.weather[0].description;
-        temperature.textContent = `${Math.round(fahrenheit)}°F`; // Exibindo em Fahrenheit
-        locationName.textContent = data.name;
+        // Adicione verificações para evitar erros se os elementos não existirem
+        if (weatherIcon) {
+            weatherIcon.src = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+        }
+
+        if (weatherDescription) {
+            weatherDescription.textContent = data.weather[0].description;
+        }
+
+        if (temperature) {
+            temperature.textContent = `${Math.round(fahrenheit)}°F`; // Exibindo em Fahrenheit
+        }
+
+        if (locationName) {
+            locationName.textContent = data.name;
+        }
     } catch (error) {
         console.error('Erro ao buscar dados climáticos:', error);
     }
