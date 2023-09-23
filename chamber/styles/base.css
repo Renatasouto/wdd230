@@ -1,0 +1,266 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.hero-image {
+    height: 350px;
+    background-position: center top;
+    background-size: cover;
+}
+
+header {
+    background-image: url('caminho-para-sua-hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin-bottom: 1opx;
+}
+
+nav {
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    align-content: center;
+    text-align: center;
+    border-bottom: #E7D9CF;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav a {
+    background-color: #8CB7DC;
+	color: black;
+	display: block;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: black;
+    color: black;
+}
+
+footer {
+    color: black;
+	margin-top: 10px;
+    margin-bottom: 10px;
+    border: #0a4061 solid 5px;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    flex-direction: column;
+	padding: 20px;
+    background-color: #8CB7DC;;
+}
+
+.contact-info {
+    text-align: right;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: .25rem .75rem;
+	background-color: #eee;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❎";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #333;
+	color: #fff;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation li a {
+	display: block;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+.navigation li a:hover {
+	background-color: #E7D9CF;
+	color: black;
+	font-weight: 700;
+}
+
+.open li {
+	display: block;
+	width: 100%;
+}
+
+.open li a {
+	display: block;
+}
+
+button#menu {
+    top: 0%;
+    position: inherit;
+}
+
+#lastModified {
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+ 
+.cta-section {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cta-section h2 {
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+
+.cta-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: #0a4061;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #0a3041;
+}
+
+.card{
+    justify-content: center;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 10px;
+}
+
+main {
+    justify-content: center;
+    align-content: center;
+    display: block;
+    grid-template-columns: 60% 40%;
+    grid-gap: 5px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+h2.title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    align-content: center;
+    padding: 15px;
+    background-color: #8CB7DC;
+}
+
+.event-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.event-list li {
+    margin-bottom: 30px;
+}
+
+.event-list h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+img#weather-icon {
+    height: 120px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.spotlight {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    float: left;
+    box-sizing: border-box;
+    width: calc(33.33% - 20px);
+}
+
+.spotlight:not(:last-child) {
+    margin-right: 20px;
+}
+
+.spotlights-section .spotlight:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .spotlights-section .spotlight {
+        width: calc(50% - 10px);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .spotlights-section .spotlight {
+        width: 100%;
+        margin-right: 0;
+    }
+}

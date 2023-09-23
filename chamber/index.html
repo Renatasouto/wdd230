@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Informations about the Natal Chamber of Commerce.">
+    <link rel="apple-touch-icon" href="/chamber/apple-touch-icon.png">
+    <link rel="icon" href="/chamber/favicon.ico">
+    <link rel="icon" sizes="32x32" href="/chamber/images/favicon-32x32.png">
+    <link rel="icon" sizes="16x16" href="/chamber/images/favicon-16x16.png">
+    <link rel="icon" sizes="512x512" href="/chamber/images/android-chrome-512x512.png">
+    <link rel="icon" sizes="192x192" href="/chamber/images/android-chrome-192x192.png">
+    <title>Natal Chamber of Commerce Site</title>
+    <meta property="og:title" content="Natal Chamber of Commerce Site">
+    <meta property="og:description" content="Detailed information about the Natal Chamber's site and its plan.">
+    <meta property="og:image" content="/chamber/images/social-media-image.jpg">
+    <meta property="og:url" content="https://example.com/natal-chamber-site">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="/chamber/styles/normalize.css">
+    <link rel="stylesheet" href="/chamber/styles/base.css">
+    <link rel="stylesheet" href="/chamber/styles/larger.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button id="menu" aria-label="Open the Hamburger Menu in a small view"></button>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </nav>
+        <div class="hero-image">
+            <div class="hero-text">
+                <div class="hero-image" style="background-image: url('/chamber/images/hero-image.jpeg');"></div>
+            </div>
+        </div>
+    </header>
+   
+    <section class="cta-section">
+        <h2>Join the Chamber of Commerce</h2>
+        <p>Join us to grow your business and empower the community.</p>
+        <button class="cta-button">Join Now</button>
+    </section>
+    <main>
+        <section class="card">
+            <h2>Current Events</h2>
+            <ul class="event-list">
+                <li>
+                    <h3>Annual Gala Dinner</h3>
+                    <p>Date: October 10, 2023</p>
+                    <p>Location: Natal, Brazil</p>
+                    <div class="event-description">
+                        <br>
+                        <button class="more-info-button" onclick="toggleDescription(this)">To Know More</button>
+                        <p class="event-description-hidden" style="display: none;"><br>Join us for our glamorous Annual Gala Dinner.<br>It's a night of elegance, fine dining, and entertainment.<br>Celebrate with us and make memories at this remarkable event!<br>For more information, call 000-0000-00000.</p>
+                    </div>
+                    <br>
+                    <hr>
+                </li>
+                <li>
+                    <h3>Professional Development Workshop</h3>
+                    <p>Date: March 25, 2023</p>
+                    <p>Location: Natal, Brazil</p>
+                    <div class="event-description">
+                        <br>
+                        <button class="more-info-button" onclick="toggleDescription(this)">To Know More</button>
+                        <p class="event-description-hidden" style="display: none;"><br>Join our exclusive workshop on professional development.<br>You will learn essential skills to advance in your career.<br> Our experienced speakers will share valuable insights. Secure your spot now!<br> For more information, call 000-0000-00000.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="card">
+            <h2>Weather</h2>
+            <div class="weather-card" id="weather-card">
+                <img src="" alt="Weather Icon" id="weather-icon">
+                <h3 id="weather-description"></h3>
+                <p id="temperature"></p>
+                <p id="location"></p>
+            </div>
+        </section>
+    </main>
+    <section class="spotlights-section">
+        <h2>Company Spotlights</h2>
+        <div class="spotlight">
+            <img src="/chamber/images/staff.png" alt="Company 1 Logo">
+            <h3>Neves</h3>
+            <p>A leading provider of innovative solutions and services in Natal, RN.</p>
+            <a href="#" class="spotlight-link">Learn More</a>
+        </div>
+        <div class="spotlight">
+            <img src="/chamber/images/company.png" alt="Company 2 Logo">
+            <h3>ABC Enterprises</h3>
+            <p>Offering high-quality products and services for businesses in Natal, RN.</p>
+            <a href="#" class="spotlight-link">Learn More</a>
+        </div>
+        <div class="spotlight">
+            <img src="/chamber/images/insurancecompany.png" alt="Company 3 Logo">
+            <h3>Natal Tech Solutions</h3>
+            <p>Providing cutting-edge technology solutions to businesses for over a decade.</p>
+            <a href="#" class="spotlight-link">Learn More</a>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <p>&copy; <span id="currentYear">2023</span> | Renata Santiago | WDD230 Project | renata@gmail.com | +(000) 098-0987  </p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="/chamber/scripts/weather.js"></script>
+    <script src="/chamber/scripts/events.js"></script>
+    <script src="/chamber/scripts/hamMenu.js"></script>
+    <script src="/chamber/scripts/getDates.js"></script>
+    <script src="/chamber/scripts/buttonEvents.js"></script>
+</body>
+</html>
