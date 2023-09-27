@@ -1,0 +1,41 @@
+/* CSS para exibir <picture> em uma única coluna no centro */
+main, h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+picture {
+    margin: 10px; /* Espaçamento entre as imagens */
+    width: 600px;
+    height: 400px;
+}
+
+footer {
+    color: black;
+	margin-top: 10px;
+    margin-bottom: 10px;
+    border: #0a4061 solid 5px;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    flex-direction: column;
+	padding: 20px;
+    background-color: #8CB7DC;
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

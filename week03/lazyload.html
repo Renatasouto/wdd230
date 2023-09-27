@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load Page</title>
+    <link rel="stylesheet" href="/week03/styles/lazyload.css">
+</head>
+<body>
+    <header>
+        <h1>Lazy Load Page</h1>
+    </header>
+
+    <main>
+        <picture class="fade-in">
+            <img src="/week03/images/picmoon-01.jpeg" alt="Picture 01" loading="lazy">
+        </picture>
+        <picture class="fade-in">
+            <img src="/week03/images/picmoon-02.jpeg" alt="Picture 02" loading="lazy">
+        </picture>
+        <picture class="fade-in">
+            <img src="/week03/images/picmoon-03.jpeg"  alt="Picture 03" loading="lazy">
+        </picture>
+        <picture class="fade-in">
+            <img src="/week03/images/picmoon-04.jpeg"  alt="Picture 04" loading="lazy">
+        </picture>
+        <picture class="fade-in">
+            <img src="/week03/images/picmoon-05.jpeg"  alt="Picture 05" loading="lazy">
+        </picture>
+        <picture class="fade-in">
+            <img src="/week03/images/picmoon-06.jpeg"  alt="Picture 06" loading="lazy">
+        </picture>
+    </main>
+
+    <footer>
+        <p role="heading">© <span id="currentYear">2023</span> - Renata Santiago - Brazil</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="/week03/scripts/getDates.js"></script>
+</body>
+</html>
