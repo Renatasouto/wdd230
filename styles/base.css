@@ -263,15 +263,16 @@ button#menu {
   
 .overlay-text {
     position: absolute; 
-    top: 85%; 
-    left: 65%; 
+    top: 75%; 
+    left: 28%; 
     background-color: black;
     color: white; 
     padding: 15px; 
-    font-size: large;
+    font-size:small;
 }
 
 #visitCounter, #visitCount {
     background-color: rgb(188, 215, 229);
     text-align: center;
+    font-weight: bold;
 }
