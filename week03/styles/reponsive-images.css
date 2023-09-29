@@ -1,0 +1,11 @@
+.hero img {
+    width: 100%;
+    height: auto;
+  }
+  Este código CSS garante que a imagem dentro da classe .hero tenha uma largura de 100% do elemento pai (mantendo a proporção intrínseca) e uma altura automática, o que é uma maneira eficaz de fazer com que a imagem seja responsiva e evite problemas de mudança de layout durante o carregamento da página, como mencionado nas diretrizes originais. Certifique-se de vincular esse arquivo CSS ao seu documento HTML para que ele funcione corretamente.
+  
+  
+  
+  
+  
+  
