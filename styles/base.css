@@ -258,18 +258,18 @@ button#menu {
 }
 
 .hero-img-container {
-    position: relative; /* Define o posicionamento relativo para o contêiner da imagem */
+    position: relative; 
   }
   
-  .overlay-text {
-    position: absolute; /* Define o posicionamento absoluto para o texto */
-    top: 85%; /* Alinha o texto ao topo do contêiner da imagem */
-    left: 65%; /* Alinha o texto à esquerda do contêiner da imagem */
+.overlay-text {
+    position: absolute; 
+    top: 85%; 
+    left: 65%; 
     background-color: black;
-    color: white; /* Cor do texto */
-    padding: 15px; /* Espaçamento interno para o texto */
+    color: white; 
+    padding: 15px; 
     font-size: large;
-  }
+}
 
 #visitCounter, #visitCount {
     background-color: rgb(188, 215, 229);
