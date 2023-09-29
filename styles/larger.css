@@ -46,11 +46,11 @@
 
   .overlay-text {
     position: absolute; 
-    top: 110%; 
+    top: 40%; 
     left: 45%; 
     background-color: black;
     color: white; 
-    padding: 15px; 
+    padding: 10px; 
     font-size: large;
 }
 
