@@ -100,3 +100,18 @@
 		margin: 1rem auto;
 	}
 }
+
+@media (max-width: 767px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        margin: 0;
+    }
+
+    .gallery-container {
+        margin: 0;
+    }
+
+    .gallery figure {
+        margin: 0 0 20px;
+    }
+}
