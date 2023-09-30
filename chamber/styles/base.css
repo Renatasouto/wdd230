@@ -311,8 +311,10 @@ figure {
 h1 {
     font-size: 37px;
     color: #000;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     margin-top: 50px;
+    margin-left: 10px;
+
 }
 
 
