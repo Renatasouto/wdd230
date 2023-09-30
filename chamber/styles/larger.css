@@ -9,7 +9,65 @@
 		display: grid;
 		grid-template-columns: 60% 40%;
 		grid-gap: 0;
-	  }
+	}
+
+	figure:hover {
+        /* Adicione aqui o efeito desejado, por exemplo, aumento de escala */
+        transform: scale(1.4);
+        transition: transform 0.3s ease; /* Adiciona uma transição suave */
+    }
+
+	.grid-container {
+		display: grid;
+		grid-template-columns: 280px 1fr; /* Uma coluna para a barra lateral e outra para a galeria */
+		grid-gap: 20px; /* Espaço entre as colunas */
+	}
+
+	.gallery-container {
+		/* Estilos para a gleria de imagens */
+		width: 90%;  
+		font-size: 28px;
+		margin-bottom: 30px;
+		margin-top: 50px;
+		margin-right: 20px;
+		margin-left: 25px;
+		text-align: center;
+		align-content: center;
+		display: grid;
+	}
+
+	.gallery img {
+		/* Estilos para as imagens */
+		width: auto;
+		height: auto;
+		transition: transform 0.3s ease;
+	}
+
+	.sidebar {
+		margin-top: 17%;
+		margin-left: 7%;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		width: 290px;
+		height: auto;
+		padding: 15px;
+		border: #0a3041 solid 5px;
+	}
+
+	footer {
+		color: black;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		font-family: 'Anton', sans-serif;
+		font-size: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		padding: 20px;
+		background-color: #8CB7DC;
+	}
 }
 
 /* large view navigation ************************************/

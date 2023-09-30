@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Informations about the Natal Chamber of Commerce.">
+    <meta name="author" content="Renata Santiago">
+    <link rel="apple-touch-icon" href="/wdd230chamber/apple-touch-icon.png">
+    <link rel="icon" href="/wdd230/chamber/favicon.ico">
+    <link rel="icon" sizes="32x32" href="/wdd230/chamber/images/favicon-32x32.png">
+    <link rel="icon" sizes="16x16" href="/wdd230/chamber/images/favicon-16x16.png">
+    <link rel="icon" sizes="512x512" href="/wdd230/chamber/images/android-chrome-512x512.png">
+    <link rel="icon" sizes="192x192" href="/wdd230/chamber/images/android-chrome-192x192.png">
+    <link rel="stylesheet" href="/wdd230/chamber/styles/normalize.css">
+    <link rel="stylesheet" href="/wdd230/chamber/styles/base.css">
+    <link rel="stylesheet" href="/wdd230/chamber/styles/larger.css">
+    <link rel="stylesheet" href="/wdd230/chamber/styles/gallery.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button id="menu" aria-label="Open the Hamburger Menu in a small view"></button>
+            <ul class="navigation">
+                <li><a href="https://renatasouto.github.io/wdd230/chamber/">Home</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </nav>
+        <div class="hero-image">
+            <div class="hero-text"></div>
+            <div class="hero-text">
+                <div class="hero-image" style="background-image: url('/wdd230/chamber/images/hero-image.jpeg');"></div>
+            </div>
+        </div>
+    </header>
+    <main class="grid-container">
+        <!-- The sidebar -->
+        <aside class="sidebar">
+            <b><div id="visit-message"></div></b>
+            <h2>Event Calendar</h2>
+            <ul class="event-calendar">
+                <li>
+                    <strong>Seminar on Business Development</strong>
+                    <br>
+                    Date: October 15, 2023
+                    <br>
+                    Description: A seminar for local entrepreneurs to explore business opportunities.
+                </li>
+                <br>
+                <li>
+                    <strong>Community Craft Fair</strong>
+                    <br>
+                    Date: November 25, 2023
+                    <br>
+                    Description: An annual fair showcasing local craft talents.
+                </li>
+                <br>
+                <hr>
+                <br>
+            </ul>
+            <h2>Influence Statistics</h2>
+            <ul class="chamber-stats">
+                <li>Member Companies: 250</li>
+                <li>Jobs Created: 1,000</li>
+                <li>Events Hosted: 30</li>
+                <li>Community Investment: $1.5 million</li>
+                <li>Local Partnerships: 15</li>
+                <br>
+                <hr>
+                <br>
+            </ul>
+            <h2>Calendar</h2>
+            <div id="calendar-container">
+                <h2 id="current-month"></h2>
+                <div id="calendar"></div>
+            </div>
+        </aside>
+        <!-- Conteúdo principal (galeria) -->
+        <div class="gallery-container">
+            <h2 id="title-main">Local Photos</h2>
+            <figure>
+                <img src="/wdd230/chamber/images/natal-01.webp" alt="Local Photo 1" loading="lazy">
+                <figcaption class="gallery-caption">Natal Beach</figcaption>
+            </figure>
+            <figure>
+                <img src="/wdd230/chamber/images/natal-02.webp" alt="Local Photo 2" loading="lazy">
+                <figcaption class="gallery-caption">Arena das Dunas - Soccer Stadium</figcaption>
+            </figure>
+            <figure>
+                <img src="/wdd230/chamber/images/natal-03.webp" alt="Local Photo 3" loading="lazy">
+                <figcaption class="gallery-caption">Girl Shopping in a Store in Natal</figcaption>
+            </figure>
+            <figure>
+                <img src="/wdd230/chamber/images/natal-04.webp" alt="Local Photo 4" loading="lazy">
+                <figcaption class="gallery-caption">Wind Farm</figcaption>
+            </figure>
+            <figure>
+                <img src="/wdd230/chamber/images/natal-05.webp" alt="Local Photo 5" loading="lazy">
+                <figcaption class="gallery-caption">Dom Nivaldo Monte Municipal Park Road</figcaption>
+            </figure>
+            <figure>
+                <img src="/wdd230/chamber/images/natal-06.webp" alt="Local Photo 6" loading="lazy">
+                <figcaption class="gallery-caption">Dom Nivaldo Monte Park Viewpoint</figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+    </main>
+    <footer>
+        <div>
+            <p>&copy; <span id="currentYear">2023</span> | Renata Santiago | WDD230 Project | renata@gmail.com</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="/wdd230/chamber/scripts/weather.js"></script>
+    <script src="/wdd230/chamber/scripts/events.js"></script>
+    <script src="/wdd230/chamber/scripts/hamMenu.js"></script>
+    <script src="/wdd230/chamber/scripts/getDates.js"></script>
+    <script src="/wdd230/chamber/scripts/buttonEvents.js"></script>
+    <script src="/wdd230/chamber/scripts/calendar.js"></script>
+    <script src="/wdd230/chamber/scripts/message.js"></script>
+</body>
+</html>
