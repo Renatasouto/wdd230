@@ -12,15 +12,14 @@
 	}
 
 	figure:hover {
-        /* Adicione aqui o efeito desejado, por exemplo, aumento de escala */
         transform: scale(1.4);
-        transition: transform 0.3s ease; /* Adiciona uma transição suave */
+        transition: transform 0.3s ease; 
     }
 
 	.grid-container {
 		display: grid;
-		grid-template-columns: 280px 1fr; /* Uma coluna para a barra lateral e outra para a galeria */
-		grid-gap: 20px; /* Espaço entre as colunas */
+		grid-template-columns: 280px 1fr; 
+		grid-gap: 20px; 
 	}
 
 	.gallery-container {
