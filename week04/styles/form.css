@@ -23,7 +23,7 @@ form {
 
 label {
     display: block;
-    margin: 7px;
+    margin: 5px;
     color: var(--text-color); 
     
 }
@@ -36,6 +36,6 @@ main {
     max-width: 400px;
     align-items: center;
     justify-content: center; 
-    padding: 20px;
+    padding: 10px;
 }
 
