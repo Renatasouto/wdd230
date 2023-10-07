@@ -377,7 +377,6 @@ form select[name="membership-level"] {
 
 .hero-text {
     background-image: url('/wdd230/chamber/images/hero-image.jpeg');
-    
 }
 
 @media (max-width: 768px) {
