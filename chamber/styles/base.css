@@ -7,10 +7,10 @@
 header {
     background-size: cover;
     background-position: center;
-    height: 400px;
+    height: 500px;
     text-align: center;
     color: #fff;
-    padding: 20px;
+    padding-top: 20px;
 }
 
 header h1 {
@@ -98,7 +98,7 @@ body {
 }
 
 .navigation li {
-    display: none;
+    display:none;
 }
 
 .navigation li a {
@@ -112,7 +112,7 @@ body {
 .navigation li a:hover {
     background-color: #E7D9CF;
     color: black;
-    font-weight: 700;
+    font-weight: 700px;
 }
 
 .open li {
@@ -122,11 +122,13 @@ body {
 
 .open li a {
     display: block;
+    margin: -10px;
 }
 
 button#menu {
-    top: 0%;
     position: inherit;
+    padding: 0%;
+    margin: 2%;
 }
 
 #lastModified {
@@ -375,8 +377,13 @@ form select[name="membership-level"] {
     margin-left: 20px;
 }
 
-.hero-text {
-    background-image: url('/wdd230/chamber/images/hero-image.jpeg');
+div.hero-image {
+    background-image: url('../images/hero-image.jpeg');
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 @media (max-width: 768px) {
