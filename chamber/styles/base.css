@@ -389,6 +389,12 @@ form select[name="membership-level"] {
     margin-left: 20px;
 }
 
+.hero-text {
+    background-image: url('/wdd230/chamber/images/hero-image.jpeg');
+    /* Outras propriedades de estilo, como tamanho e posição, podem ser definidas aqui */
+    /* Certifique-se de ajustar o caminho da imagem de acordo com a estrutura de diretórios do seu projeto */
+}
+
 /* Estilos responsivos (opcional) */
 @media (max-width: 768px) {
     form {
