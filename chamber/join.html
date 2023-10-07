@@ -51,31 +51,24 @@
             <h2>Registration</h2>
             <br>
             <br>
-            <!-- Campo de primeiro nome -->
             <label for="firstName">Applicant's First Name*:</label>
             <input type="text" id="firstName" name="firstName" required>
     
-            <!-- Campo de sobrenome -->
             <label for="lastName">Applicant's Last Name*:</label>
             <input type="text" id="lastName" name="lastName" required>
     
-            <!-- Campo de título ou posição com padrão regex -->
             <label for="position">Applicant's Title/Position (Alpha, Hyphens, Spaces, Min. 7 Characters)*:</label>
             <input type="text" id="position" name="position" required pattern="[a-zA-Z\s\-]{7,}">
     
-            <!-- Campo de endereço de email com exemplo no placeholder -->
             <label for="email">Email*:</label>
             <input type="email" id="email" name="email" required placeholder="example@email.com">
     
-            <!-- Campo de número de telefone móvel -->
             <label for="mobilePhone">Mobile Phone*:</label>
             <input type="tel" id="mobilePhone" name="mobilePhone" required>
     
-            <!-- Campo de nome da organização -->
             <label for="orgName">Business/Organization's Name*:</label>
             <input type="text" id="orgName" name="orgName" required>
     
-            <!-- Seleção de nível de associação -->
             <label for="membershipLevel">Membership Level:</label>
             <select id="membershipLevel" name="membershipLevel">
                 <option value="NP">NP Membership (No Fee)</option>
@@ -84,14 +77,11 @@
                 <option value="Gold">Gold Membership</option>
             </select>
     
-            <!-- Campo de descrição da organização -->
             <label for="orgDescription">Business/Organization's Description:</label>
             <textarea id="orgDescription" name="orgDescription"></textarea>
     
-            <!-- Campo de data/hora oculta -->
             <input type="hidden" id="timestamp" name="timestamp">
     
-            <!-- Botão de envio -->
             <button type="submit">Submit</button>
         </form>
     </main>
