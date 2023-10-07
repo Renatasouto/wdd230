@@ -67,6 +67,17 @@
 		padding: 20px;
 		background-color: #8CB7DC;
 	}
+
+	form {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		margin-left: 50px;;
+		max-width: 600px; /* Largura máxima do formulário */
+		background-color: #fff;
+		padding: 20px;
+		border-radius: 5px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
 }
 
 /* large view navigation ************************************/

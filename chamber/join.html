@@ -46,44 +46,93 @@
         <p>Join us to grow your business and empower the community.</p>
     </section>
     <main>
-        <form action="thankyou.html" method="get">
+        <div class="membership-form">
+            <form action="thankyou.html" method="get">
+                <h2>Registration</h2>
+                <br>
+                <br>
+                <label for="firstName">Applicant's First Name*:</label>
+                <input type="text" id="firstName" name="firstName" required>
+        
+                <label for="lastName">Applicant's Last Name*:</label>
+                <input type="text" id="lastName" name="lastName" required>
+        
+                <label for="position">Applicant's Title/Position (Alpha, Hyphens, Spaces, Min. 7 Characters)*:</label>
+                <input type="text" id="position" name="position" required pattern="[a-zA-Z\s\-]{7,}">
+        
+                <label for="email">Email*:</label>
+                <input type="email" id="email" name="email" required placeholder="example@email.com">
+        
+                <label for="mobilePhone">Mobile Phone*:</label>
+                <input type="tel" id="mobilePhone" name="mobilePhone" required>
+        
+                <label for="orgName">Business/Organization's Name*:</label>
+                <input type="text" id="orgName" name="orgName" required>
+        
+                <label for="membershipLevel">Membership Level:</label>
+                <select id="membershipLevel" name="membershipLevel">
+                    <option value="NP">NP Membership (No Fee)</option>
+                    <option value="Bronze">Bronze Membership</option>
+                    <option value="Silver">Silver Membership</option>
+                    <option value="Gold">Gold Membership</option>
+                </select>
+        
+                <label for="orgDescription">Business/Organization's Description:</label>
+                <textarea id="orgDescription" name="orgDescription"></textarea>
+        
+                <input type="hidden" id="timestamp" name="timestamp">
+        
+                <button type="submit">Submit</button>
+            </form>
+        </div>
 
-            <h2>Registration</h2>
-            <br>
-            <br>
-            <label for="firstName">Applicant's First Name*:</label>
-            <input type="text" id="firstName" name="firstName" required>
-    
-            <label for="lastName">Applicant's Last Name*:</label>
-            <input type="text" id="lastName" name="lastName" required>
-    
-            <label for="position">Applicant's Title/Position (Alpha, Hyphens, Spaces, Min. 7 Characters)*:</label>
-            <input type="text" id="position" name="position" required pattern="[a-zA-Z\s\-]{7,}">
-    
-            <label for="email">Email*:</label>
-            <input type="email" id="email" name="email" required placeholder="example@email.com">
-    
-            <label for="mobilePhone">Mobile Phone*:</label>
-            <input type="tel" id="mobilePhone" name="mobilePhone" required>
-    
-            <label for="orgName">Business/Organization's Name*:</label>
-            <input type="text" id="orgName" name="orgName" required>
-    
-            <label for="membershipLevel">Membership Level:</label>
-            <select id="membershipLevel" name="membershipLevel">
-                <option value="NP">NP Membership (No Fee)</option>
-                <option value="Bronze">Bronze Membership</option>
-                <option value="Silver">Silver Membership</option>
-                <option value="Gold">Gold Membership</option>
-            </select>
-    
-            <label for="orgDescription">Business/Organization's Description:</label>
-            <textarea id="orgDescription" name="orgDescription"></textarea>
-    
-            <input type="hidden" id="timestamp" name="timestamp">
-    
-            <button type="submit">Submit</button>
-        </form>
+        <div class="membership-benefits">
+            <div class="benefits-column">
+                <h3>NP Membership (No Fee)</h3>
+                <p>Membership Fee: $0</p>
+                <p>Benefits:</p>
+                <ul>
+                    <li>No membership fee</li>
+                    <li>Access to community events</li>
+                </ul>
+            </div>
+            <div class="benefits-column">
+                <h3>Bronze Membership</h3>
+                <p>Membership Fee: $50/month</p>
+                <p>Benefits:</p>
+                <ul>
+                    <li>Discounts on special events</li>
+                    <li>Monthly newsletter with exclusive tips</li>
+                    <li>Featured in our online business directory</li>
+                    <li>Access to quarterly training sessions</li>
+                </ul>
+            </div>
+            <div class="benefits-column">
+                <h3>Silver Membership</h3>
+                <p>Membership Fee: $100/month</p>
+                <p>Benefits:</p>
+                <ul>
+                    <li>Discounts on special events</li>
+                    <li>Monthly newsletter with exclusive tips</li>
+                    <li>Featured in our online business directory</li>
+                    <li>Access to quarterly training sessions</li>
+                    <li>Priority access to Chamber-sponsored events</li>
+                </ul>
+            </div>
+            <div class="benefits-column">
+                <h3>Gold Membership</h3>
+                <p>Membership Fee: $200/month</p>
+                <p>Benefits:</p>
+                <ul>
+                    <li>Discounts on special events</li>
+                    <li>Monthly newsletter with exclusive tips</li>
+                    <li>Featured in our online business directory</li>
+                    <li>Access to quarterly training sessions</li>
+                    <li>Priority access to Chamber-sponsored events</li>
+                    <li>Opportunity to host Chamber events</li>
+                </ul>
+            </div>
+        </div>
     </main>
     <footer>
         <div>
