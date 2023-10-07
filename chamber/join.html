@@ -1,147 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Informations about to join the Natal Chamber of Commerce.">
-    <meta name="author" content="Renata Santiago">
-    <link rel="apple-touch-icon" href="../chamber/apple-touch-icon.png">
-    <link rel="icon" href="../chamber/favicon.ico">
-    <link rel="icon" sizes="32x32" href="../chamber/images/favicon-32x32.png">
-    <link rel="icon" sizes="16x16" href="../chamber/images/favicon-16x16.png">
-    <link rel="icon" sizes="512x512" href="../chamber/images/android-chrome-512x512.png">
-    <link rel="icon" sizes="192x192" href="../chamber/images/android-chrome-192x192.png">
-    <title>Natal Chamber of Commerce Join Page</title>
-    <meta property="og:title" content="Natal Chamber of Commerce Join Page">
-    <meta property="og:description" content="Page destinated to join the chamber of commerce">
-    <meta property="og:image" content="https://renatasouto.github.io/wdd230/chamber/images/hero-image.jpeg">
-    <meta property="og:image:alt" content="Hero Image Description"> 
-    <meta property="og:url" content="https://renatasouto.github.io/wdd230/chamber/">
-    <meta property="og:type" content="website">
-    <link rel="stylesheet" href="../chamber/styles/normalize.css">
-    <link rel="stylesheet" href="../chamber/styles/base.css">
-    <link rel="stylesheet" href="../chamber/styles/larger.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <button id="menu" aria-label="Open the Hamburger Menu in a small view"></button>
-            <ul class="navigation">
-                <li><a href="https://renatasouto.github.io/wdd230/index.html">Home</a></li>
-                <li><a href="https://renatasouto.github.io/wdd230/chamber/discover.html">Discover</a></li>
-                <li><a href="https://renatasouto.github.io/wdd230/chamber/join.html">Join</a></li>
-                <li><a href="#">FAQ</a></li>
-            </ul>
-        </nav>
-        <div class="hero-image"></div>
-    </header>
-    <section class="cta-section">
-        <h1>Natal Chamber of Commerce</h1>
-        <h2>Join the Chamber of Commerce</h2>
-        <p>Join us to grow your business and empower the community.</p>
-    </section>
-    <main>
-        <div class="membership-form">
-            <form action="thankyou.html" method="get">
-                <h2>Registration</h2>
-                <br>
-                <br>
-                <label for="firstName">Applicant's First Name*:</label>
-                <input type="text" id="firstName" name="firstName" required>
-        
-                <label for="lastName">Applicant's Last Name*:</label>
-                <input type="text" id="lastName" name="lastName" required>
-        
-                <label for="position">Applicant's Title/Position (Alpha, Hyphens, Spaces, Min. 7 Characters)*:</label>
-                <input type="text" id="position" name="position" required pattern="[a-zA-Z\s\-]{7,}">
-        
-                <label for="email">Email*:</label>
-                <input type="email" id="email" name="email" required placeholder="example@email.com">
-        
-                <label for="mobilePhone">Mobile Phone*:</label>
-                <input type="tel" id="mobilePhone" name="mobilePhone" required>
-        
-                <label for="orgName">Business/Organization's Name*:</label>
-                <input type="text" id="orgName" name="orgName" required>
-        
-                <label for="membershipLevel">Membership Level:</label>
-                <select id="membershipLevel" name="membershipLevel">
-                    <option value="NP">NP Membership (No Fee)</option>
-                    <option value="Bronze">Bronze Membership</option>
-                    <option value="Silver">Silver Membership</option>
-                    <option value="Gold">Gold Membership</option>
-                </select>
-        
-                <label for="orgDescription">Business/Organization's Description:</label>
-                <textarea id="orgDescription" name="orgDescription"></textarea>
-        
-                <input type="hidden" id="timestamp" name="timestamp">
-        
-                <button type="submit">Submit</button>
-            </form>
-        </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Page destined to join the chamber of commerce.">
+        <meta name="author" content="Renata Santiago">
+        <link rel="apple-touch-icon" href="../chamber/apple-touch-icon.png">
+        <link rel="icon" href="../chamber/favicon.ico">
+        <link rel="icon" sizes="32x32" href="../chamber/images/favicon-32x32.png">
+        <link rel="icon" sizes="16x16" href="../chamber/images/favicon-16x16.png">
+        <link rel="icon" sizes="512x512" href="../chamber/images/android-chrome-512x512.png">
+        <link rel="icon" sizes="192x192" href="../chamber/images/android-chrome-192x192.png">
+        <title>Natal Chamber of Commerce Join Page</title>
+        <meta property="og:title" content="Natal Chamber of Commerce Join Page">
+        <meta property="og:description" content="Page destined to join the chamber of commerce">
+        <meta property="og:image" content="https://renatasouto.github.io/wdd230/chamber/images/hero-image.jpeg">
+        <meta property="og:image:alt" content="Hero Image Description"> 
+        <meta property="og:url" content="https://renatasouto.github.io/wdd230/chamber/">
+        <meta property="og:type" content="website">
+        <link rel="stylesheet" href="../chamber/styles/normalize.css">
+        <link rel="stylesheet" href="../chamber/styles/base.css">
+        <link rel="stylesheet" href="../chamber/styles/larger.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <button id="menu" aria-label="Open the Hamburger Menu in a small view"></button>
+                <ul class="navigation">
+                    <li><a href="https://renatasouto.github.io/wdd230/index.html">Home</a></li>
+                    <li><a href="https://renatasouto.github.io/wdd230/chamber/discover.html">Discover</a></li>
+                    <li><a href="https://renatasouto.github.io/wdd230/chamber/join.html">Join</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="hero-image"></div>
+        </header>
+        <section class="cta-section">
+            <h1>Natal Chamber of Commerce</h1>
+            <h2>Join the Chamber of Commerce</h2>
+            <p>Join us to grow your business and empower the community.</p>
+        </section>
+        <main>
+            <div class="membership-form">
+                <form action="thankyou.html" method="get">
+                    <h2>Registration</h2>
+                    <br>
+                    <br>
+                    <label for="firstName">Applicant's First Name*:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+            
+                    <label for="lastName">Applicant's Last Name*:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+            
+                    <label for="position">Applicant's Title/Position (Alpha, Hyphens, Spaces, Min. 7 Characters)*:</label>
+                    <input type="text" id="position" name="position" required pattern="[a-zA-Z\s\-]{7,}">
+            
+                    <label for="email">Email*:</label>
+                    <input type="email" id="email" name="email" required placeholder="example@email.com">
+            
+                    <label for="mobilePhone">Mobile Phone*:</label>
+                    <input type="tel" id="mobilePhone" name="mobilePhone" required>
+            
+                    <label for="orgName">Business/Organization's Name*:</label>
+                    <input type="text" id="orgName" name="orgName" required>
+            
+                    <label for="membershipLevel">Membership Level:</label>
+                    <select id="membershipLevel" name="membershipLevel">
+                        <option value="NP">NP Membership (No Fee)</option>
+                        <option value="Bronze">Bronze Membership</option>
+                        <option value="Silver">Silver Membership</option>
+                        <option value="Gold">Gold Membership</option>
+                    </select>
+            
+                    <label for="orgDescription">Business/Organization's Description:</label>
+                    <textarea id="orgDescription" name="orgDescription"></textarea>
+            
+                    <input type="hidden" id="timestamp" name="timestamp">
+            
+                    <button id="submit" type="submit">Submit</button>
+                </form>
+            </div>
 
-        <div class="membership-benefits">
-            <div class="benefits-column">
-                <h3>NP Membership (No Fee)</h3>
-                <p>Membership Fee: $0</p>
-                <p>Benefits:</p>
-                <ul>
-                    <li>No membership fee</li>
-                    <li>Access to community events</li>
-                </ul>
+            <div class="membership-benefits">
+                <div class="benefits-column">
+                    <h3>NP Membership (No Fee)</h3>
+                    <p>Membership Fee: $0</p>
+                    <p>Benefits:</p>
+                    <ul>
+                        <li>No membership fee</li>
+                        <li>Access to community events</li>
+                    </ul>
+                </div>
+                <div class="benefits-column">
+                    <h3>Bronze Membership</h3>
+                    <p>Membership Fee: $50/month</p>
+                    <p>Benefits:</p>
+                    <ul>
+                        <li>Discounts on special events</li>
+                        <li>Monthly newsletter with exclusive tips</li>
+                        <li>Featured in our online business directory</li>
+                        <li>Access to quarterly training sessions</li>
+                    </ul>
+                </div>
+                <div class="benefits-column">
+                    <h3>Silver Membership</h3>
+                    <p>Membership Fee: $100/month</p>
+                    <p>Benefits:</p>
+                    <ul>
+                        <li>Discounts on special events</li>
+                        <li>Monthly newsletter with exclusive tips</li>
+                        <li>Featured in our online business directory</li>
+                        <li>Access to quarterly training sessions</li>
+                        <li>Priority access to Chamber-sponsored events</li>
+                    </ul>
+                </div>
+                <div class="benefits-column">
+                    <h3>Gold Membership</h3>
+                    <p>Membership Fee: $200/month</p>
+                    <p>Benefits:</p>
+                    <ul>
+                        <li>Discounts on special events</li>
+                        <li>Monthly newsletter with exclusive tips</li>
+                        <li>Featured in our online business directory</li>
+                        <li>Access to quarterly training sessions</li>
+                        <li>Priority access to Chamber-sponsored events</li>
+                        <li>Opportunity to host Chamber events</li>
+                    </ul>
+                </div>
             </div>
-            <div class="benefits-column">
-                <h3>Bronze Membership</h3>
-                <p>Membership Fee: $50/month</p>
-                <p>Benefits:</p>
-                <ul>
-                    <li>Discounts on special events</li>
-                    <li>Monthly newsletter with exclusive tips</li>
-                    <li>Featured in our online business directory</li>
-                    <li>Access to quarterly training sessions</li>
-                </ul>
+        </main>
+        <footer>
+            <div>
+                <p>&copy; <span id="currentYear">2023</span> | Renata Santiago | WDD230 Project | renata@gmail.com</p>
+                <p id="lastModified"></p>
             </div>
-            <div class="benefits-column">
-                <h3>Silver Membership</h3>
-                <p>Membership Fee: $100/month</p>
-                <p>Benefits:</p>
-                <ul>
-                    <li>Discounts on special events</li>
-                    <li>Monthly newsletter with exclusive tips</li>
-                    <li>Featured in our online business directory</li>
-                    <li>Access to quarterly training sessions</li>
-                    <li>Priority access to Chamber-sponsored events</li>
-                </ul>
-            </div>
-            <div class="benefits-column">
-                <h3>Gold Membership</h3>
-                <p>Membership Fee: $200/month</p>
-                <p>Benefits:</p>
-                <ul>
-                    <li>Discounts on special events</li>
-                    <li>Monthly newsletter with exclusive tips</li>
-                    <li>Featured in our online business directory</li>
-                    <li>Access to quarterly training sessions</li>
-                    <li>Priority access to Chamber-sponsored events</li>
-                    <li>Opportunity to host Chamber events</li>
-                </ul>
-            </div>
-        </div>
-    </main>
-    <footer>
-        <div>
-            <p>&copy; <span id="currentYear">2023</span> | Renata Santiago | WDD230 Project | renata@gmail.com</p>
-            <p id="lastModified"></p>
-        </div>
-    </footer>
-    <script src="/chamber/scripts/weather.js"></script>
-    <script src="/chamber/scripts/events.js"></script>
-    <script src="/chamber/scripts/hamMenu.js"></script>
-    <script src="/chamber/scripts/getDates.js"></script>
-    <script src="/chamber/scripts/buttonEvents.js"></script>
-</body>
+        </footer>
+        <script src="/chamber/scripts/weather.js"></script>
+        <script src="/chamber/scripts/events.js"></script>
+        <script src="/chamber/scripts/hamMenu.js"></script>
+        <script src="/chamber/scripts/getDates.js"></script>
+        <script src="/chamber/scripts/buttonEvents.js"></script>
+    </body>
 </html>

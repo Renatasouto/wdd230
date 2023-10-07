@@ -112,7 +112,7 @@ body {
 .navigation li a:hover {
     background-color: #E7D9CF;
     color: black;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
 .open li {
@@ -383,7 +383,10 @@ div.hero-image {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
 
+#submit {
+    background-color: #000;
 }
 
 @media (max-width: 768px) {
