@@ -317,6 +317,67 @@ h1 {
 
 }
 
+form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 600px; /* Largura máxima do formulário */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+form select {
+    appearance: none;
+}
+
+form button[type="submit"] {
+    background-color: #009688; /* Cor de botão diferente para destacar */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Estilos para campos obrigatórios */
+form input[required],
+form select[required],
+form textarea[required] {
+    border-color: #f44336; /* Cor de destaque para campos obrigatórios */
+}
+
+/* Estilos para a seleção de nível de associação */
+form select[name="membership-level"] {
+    padding: 8px;
+}
+
+/* Estilos responsivos (opcional) */
+@media (max-width: 768px) {
+    form {
+        padding: 10px;
+    }
+
+    /* Adicione mais estilos responsivos conforme necessário */
+}
 
 
 
