@@ -1,0 +1,70 @@
+{
+    "weeks": [
+      {
+        "week": "Week 1",
+        "links": [
+          {
+            "url": "week01/holygrail.html",
+            "title": "HG Layout"
+          },
+          {
+            "url": "week01/media-query.html",
+            "title": "mQueries"
+          }
+        ]
+      },
+      {
+        "week": "Week 2",
+        "links": [
+          {
+            "url": "week02/box-model.html",
+            "title": "Box Model"
+          },
+          {
+            "url": "week02/selectors.html",
+            "title": "Selectors"
+          }
+        ]
+      },
+      {
+        "week": "Week 3",
+        "links": [
+          {
+            "url": "week03/flexbox.html",
+            "title": "Flexbox"
+          },
+          {
+            "url": "week03/grid.html",
+            "title": "Grid Layout"
+          }
+        ]
+      },
+      {
+        "week": "Week 4",
+        "links": [
+          {
+            "url": "week04/javascript.html",
+            "title": "JavaScript Basics"
+          },
+          {
+            "url": "week04/events.html",
+            "title": "Events"
+          }
+        ]
+      },
+      {
+        "week": "Week 5",
+        "links": [
+          {
+            "url": "week05/local-storage.html",
+            "title": "Local Storage"
+          },
+          {
+            "url": "week05/forms.html",
+            "title": "Forms"
+          }
+        ]
+      }
+    ]
+  }
+  

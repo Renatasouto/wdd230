@@ -107,6 +107,7 @@ main {
 
 .card {
     margin: 20px;
+    
 }
 
 h2 {
@@ -272,20 +273,23 @@ button#menu {
     font-size:small;
 }
 
-#visitCounter{
+#visitCounter, .weather-card{
     background-color: rgb(188, 215, 229);
     text-align: center;
     font-weight: bold;
-    padding: 20px;
+    padding: 7px;
     font-family: 'Anton', sans-serif;
     font-size: medium;
+    color: #0a4061;
 }
 
 #visitCount {
     background-color: rgb(188, 215, 229);
     text-align: center;
     font-weight: bold;
-    padding: 10px;
+    padding: 4px;
     font-family: 'Anton', sans-serif;
     font-size: medium;
 }
+
+
