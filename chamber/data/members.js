@@ -1,12 +1,12 @@
 const baseURL = "renatasouto.github.io/wdd230/chamber/";
 
-const linksURL = "https://renatasouto.github.io/wdd230/data/members.json";
+const linksURL = "https://renatasouto.github.io/wdd230/chamber/data/members.json";
 
 document.addEventListener("DOMContentLoaded", function () {
     const membersContainer = document.getElementById("members-container");
   
     // Carrega dados dos membros a partir do arquivo JSON
-    fetch("../chamber/data/members.json")
+    fetch(linksURL)
       .then(response => response.json())
       .then(data => {
         const members = data.members;
