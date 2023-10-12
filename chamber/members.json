@@ -1,0 +1,86 @@
+{
+    "members": [
+      {
+        "name": "Company 1",
+        "address": "123 Main St, City, State",
+        "phone": "555-123-4567",
+        "website": "https://www.company1.com",
+        "image": "company1.jpg",
+        "membership_level": "Gold",
+        "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "name": "Company 2",
+        "address": "456 Elm St, City, State",
+        "phone": "555-987-6543",
+        "website": "https://www.company2.com",
+        "image": "company2.jpg",
+        "membership_level": "Silver",
+        "other_info": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "name": "Company 3",
+        "address": "789 Oak St, City, State",
+        "phone": "555-555-5555",
+        "website": "https://www.company3.com",
+        "image": "company3.jpg",
+        "membership_level": "Bronze",
+        "other_info": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+      },
+      {
+        "name": "Company 4",
+        "address": "321 Elm St, City, State",
+        "phone": "555-444-3333",
+        "website": "https://www.company4.com",
+        "image": "company4.jpg",
+        "membership_level": "Platinum",
+        "other_info": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore."
+      },
+      {
+        "name": "Company 5",
+        "address": "555 Pine St, City, State",
+        "phone": "555-222-1111",
+        "website": "https://www.company5.com",
+        "image": "company5.jpg",
+        "membership_level": "Silver",
+        "other_info": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt."
+      },
+      {
+        "name": "Company 6",
+        "address": "444 Oak St, City, State",
+        "phone": "555-777-8888",
+        "website": "https://www.company6.com",
+        "image": "company6.jpg",
+        "membership_level": "Gold",
+        "other_info": "Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      {
+        "name": "Company 7",
+        "address": "999 Pine St, City, State",
+        "phone": "555-666-9999",
+        "website": "https://www.company7.com",
+        "image": "company7.jpg",
+        "membership_level": "Bronze",
+        "other_info": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "name": "Company 8",
+        "address": "789 Maple St, City, State",
+        "phone": "555-888-7777",
+        "website": "https://www.company8.com",
+        "image": "company8.jpg",
+        "membership_level": "Gold",
+        "other_info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "name": "Company 9",
+        "address": "567 Birch St, City, State",
+        "phone": "555-999-3333",
+        "website": "https://www.company9.com",
+        "image": "company9.jpg",
+        "membership_level": "Silver",
+        "other_info": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
+    ]
+  }
+  
