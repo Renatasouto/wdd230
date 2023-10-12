@@ -7,7 +7,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: black;
-    margin: 10px;
+    margin: 20px;
     transition: 0.3s;
 }
 
@@ -62,7 +62,7 @@ nav a:hover {
     background-color: rgb(188, 215, 229);
 }
 
-header-img {
+#header-img {
     border-radius: 60px;
     height: 120px; 
     width: 70px;
@@ -74,6 +74,20 @@ header-img {
     height: auto;
     width: 100%;
     height: 100%;
+    margin-left:60px;
+    margin-top: 60px;
+    
+}
+
+div.overlay-text {
+    position: absolute;
+    top: 40%;
+    left: 39%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: small;
+    z-index: 1;
 }
 
 #map{
@@ -262,7 +276,8 @@ button#menu {
 }
 
 .hero-img-container {
-    position: relative; 
+    position: relative;
+    display: inline-block;
 }
 
 .overlay-text {
