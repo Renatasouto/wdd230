@@ -125,13 +125,12 @@ h2 {
 }
 
 .content {
-    padding: 15px;
+    padding: 12px;
     list-style-type: none;
     justify-content: center;
     font-family: 'Anton', sans-serif;
     color: #0a4061;
     background-color: rgb(188, 215, 229);
-    display: ;
 }
 
 #titlepage {
