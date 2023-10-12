@@ -1,69 +1,121 @@
 {
     "weeks": [
       {
-        "week": "Week 1",
+        "week": "Week 01",
         "links": [
           {
-            "url": "week01/holygrail.html",
-            "title": "HG Layout"
+            "title": "Layout",
+            "url": "https://renatasouto.github.io/wdd230/week01/holygrail.html"
           },
           {
-            "url": "week01/media-query.html",
-            "title": "mQueries"
+            "title": "Media Query",
+            "url": "https://renatasouto.github.io/wdd230/week01/media-query.html"
+          },
+          {
+            "title": "JS Pen",
+            "url": "https://codepen.io/Renatasouto/pen/RwEVmer.html"
+          },
+          {
+            "title": "Chamber Site Plan",
+            "url": "https://renatasouto.github.io/wdd230/week01/chamber-site-plan.html"
           }
         ]
       },
       {
-        "week": "Week 2",
+        "week": "Week 02",
         "links": [
           {
-            "url": "week02/box-model.html",
-            "title": "Box Model"
+            "title": "Design",
+            "url": "https://renatasouto.github.io/wdd230/week02/bom.html"
           },
           {
-            "url": "week02/selectors.html",
-            "title": "Selectors"
+            "title": "Code Pen",
+            "url": "https://codepen.io/Renatasouto/pen/rNoYKvW?editors=1010"
+          },
+          {
+            "title": "DOM Manipulation",
+            "url": "https://codepen.io/Renatasouto/pen/rNoYKvW?editors=1010"
+          },
+          {
+            "title": "Natal Chamber of Commerce",
+            "url": "https://renatasouto.github.io/wdd230/chamber/index.html"
           }
         ]
       },
       {
-        "week": "Week 3",
+        "week": "Week 03",
         "links": [
           {
-            "url": "week03/flexbox.html",
-            "title": "Flexbox"
+            "title": "Lazy Load",
+            "url": "https://renatasouto.github.io/wdd230/week03/lazyload.html"
           },
           {
-            "url": "week03/grid.html",
-            "title": "Grid Layout"
+            "title": "WebP",
+            "url": "/week03/lazyload.html"
+          },
+          {
+            "title": "Responsive Images",
+            "url": "https://renatasouto.github.io/wdd230/week03/lazyload.html"
+          },
+          {
+            "title": "Web Storage API",
+            "url": "https://renatasouto.github.io/wdd230/chamber/discover.html"
           }
         ]
       },
       {
-        "week": "Week 4",
+        "week": "Week 04",
         "links": [
           {
-            "url": "week04/javascript.html",
-            "title": "JavaScript Basics"
+            "title": "CSS Pseudo-classes",
+            "url": "https://codepen.io/Renatasouto/pen/oNJPrGN"
           },
           {
-            "url": "week04/events.html",
-            "title": "Events"
+            "title": "WH3 Activities",
+            "url": "https://renatasouto.github.io/wdd230/week04/images/Screen%20Shot%202023-10-03%20at%208.14.40%20PM.png"
+          },
+          {
+            "title": "Tablebuild",
+            "url": "https://renatasouto.github.io/wdd230/week04/tablebuild.html"
+          },
+          {
+            "title": "Form",
+            "url": "https://renatasouto.github.io/wdd230/week04/images/Screen%20Shot%202023-10-03%20at%208.14.40%20PM.png"
+          },
+          {
+            "title": "Tablebuild",
+            "url": "https://renatasouto.github.io/wdd230/week04/form-start/index.html"
+          },
+          {
+            "title": "Tablebuild",
+            "url": "https://renatasouto.github.io/wdd230/form.html"
           }
         ]
       },
       {
-        "week": "Week 5",
+        "week": "Week 05",
         "links": [
           {
-            "url": "week05/local-storage.html",
-            "title": "Local Storage"
+            "title": "Pseudo-elements",
+            "url": "https://codepen.io/Renatasouto/pen/zYyeXRM"
           },
           {
-            "url": "week05/forms.html",
-            "title": "Forms"
+            "title": "Json File",
+            "url": "https://renatasouto.github.io/wdd230/week05/new-ward-members.json"
+          },
+          {
+            "title": "Latter Day Prophets",
+            "url": "https://renatasouto.github.io/wdd230/week05/prophets.html"
+          },
+          {
+            "title": "Weather",
+            "url": "https://renatasouto.github.io/wdd230/week05/weather.html"
           }
         ]
+      },
+      {
+        "week": "Week 06",
+        "links": [] 
       }
     ]
   }
