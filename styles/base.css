@@ -283,7 +283,7 @@ button#menu {
     font-family: 'Anton', sans-serif;
     font-size: medium;
     color: #0a4061;
-    line-height: 20px;
+    line-height: 24.5px;
 }
 
 #visitCount {
@@ -295,4 +295,7 @@ button#menu {
     font-size: medium;
 }
 
+#weather-icon {
+    margin: -10px;
+}
 
