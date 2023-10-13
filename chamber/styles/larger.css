@@ -86,6 +86,25 @@
 		background-repeat: no-repeat;
 		background-position: center;
 	}
+
+	#members-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 10px;
+		text-align: center;
+		margin-top: 20px;
+		margin-left: 20px;
+		padding: 20px;
+		background-color: #fff;
+	
+	}
+	
+	.member-card {
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		background-color: #eee;
+		margin-left: 20px;
+		grid-row: 20px;
+	}
 	
 }
 
