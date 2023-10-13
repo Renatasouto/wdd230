@@ -5,7 +5,7 @@
       "address": "123 Tech Street, Natal, RN, Brazil",
       "phone": "+55 84 1234-5678",
       "website": "https://www.nataltechsolutions.com",
-      "image": "https://icons8.com/icon/60911/gear-pok",
+      "image": "https://renatasouto.github.io/wdd230/chamber/images/icons8-flash-on-48.png",
       "membership_level": "Gold",
       "other_info": "Natal Tech Solutions is a leading tech company in Natal, providing innovative solutions for businesses in the region."
     },
@@ -50,7 +50,7 @@
       "address": "444 Renewable Road, Natal, RN, Brazil",
       "phone": "+55 84 7777-8888",
       "website": "https://www.natalgreenenergy.com",
-      "image": "https://github.com/Renatasouto/wdd230/blob/main/chamber/images/icons8-flash-on-48.png",
+      "image": "https://raw.githubusercontent.com/Renatasouto/wdd230/main/chamber/images/icons8-flash-on-48.png",
       "membership_level": "Gold",
       "other_info": "Natal Green Energy is a leader in sustainable energy solutions for Natal and the region."
     },

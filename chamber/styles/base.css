@@ -430,7 +430,7 @@ div.hero-image {
 
 .member-card img {
     max-width: 100%;
-    height: auto;
+    height: 20%;
     box-shadow: 0 0 10px #333;
 }
 
