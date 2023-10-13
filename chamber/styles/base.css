@@ -393,22 +393,25 @@ div.hero-image {
 
 #members-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
     text-align: center;
     margin-top: 20px;
-    padding: 10px;
+    margin-left: 20px;
+    padding: 20px;
     background-color: #fff;
+
 }
 
 .member-card {
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 10px;
     background-color: #eee;
+    margin-left: 20px;
+    grid-row: 20px;
 }
 
 .member-card h2 {
-    font-family: "Caveat", cursive;
+    font-family: "arial", cursive;
     font-size: 24px;
     margin: 10px 0;
 }
