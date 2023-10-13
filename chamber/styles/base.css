@@ -391,6 +391,49 @@ div.hero-image {
     background-color: #000;
 }
 
+#members-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.member-card {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #eee;
+}
+
+.member-card h2 {
+    font-family: "Caveat", cursive;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.member-card p {
+    font-weight: 600;
+    font-size: smaller;
+}
+
+.member-card a {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 0.85rem;
+    color: navy;
+    letter-spacing: 1.1pt;
+}
+
+.member-card img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px #333;
+}
+
+
+
+
 @media (max-width: 768px) {
     form {
         padding: 10px;

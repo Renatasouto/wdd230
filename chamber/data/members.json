@@ -5,7 +5,7 @@
       "address": "123 Tech Street, Natal, RN, Brazil",
       "phone": "+55 84 1234-5678",
       "website": "https://www.nataltechsolutions.com",
-      "image": "company1.jpg",
+      "image": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
       "membership_level": "Gold",
       "other_info": "Natal Tech Solutions is a leading tech company in Natal, providing innovative solutions for businesses in the region."
     },
@@ -14,7 +14,7 @@
       "address": "456 Ocean Avenue, Natal, RN, Brazil",
       "phone": "+55 84 9876-5432",
       "website": "https://www.sunrisebeachresort.com",
-      "image": "company2.jpg",
+      "image": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
       "membership_level": "Silver",
       "other_info": "Enjoy the beautiful beaches of Natal at Sunrise Beach Resort, your perfect getaway in paradise."
     },
@@ -23,7 +23,7 @@
       "address": "789 Green Road, Natal, RN, Brazil",
       "phone": "+55 84 5555-5555",
       "website": "https://www.natalfreshfarms.com",
-      "image": "company3.jpg",
+      "image": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
       "membership_level": "Bronze",
       "other_info": "Natal Fresh Farms is your source for the freshest locally grown produce in Natal and surrounding areas."
     },
@@ -32,7 +32,7 @@
       "address": "321 Builder's Lane, Natal, RN, Brazil",
       "phone": "+55 84 4444-3333",
       "website": "https://www.goldenstarconstruction.com",
-      "image": "company4.jpg",
+      "image": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
       "membership_level": "Platinum",
       "other_info": "Building dreams in Natal, Golden Star Construction is your reliable construction partner for quality projects."
     },
@@ -41,7 +41,7 @@
       "address": "555 Marina Drive, Natal, RN, Brazil",
       "phone": "+55 84 2222-1111",
       "website": "https://www.natalseafoodco.com",
-      "image": "company5.jpg",
+      "image": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
       "membership_level": "Silver",
       "other_info": "Bringing the taste of the sea to your plate, Natal Seafood Co. offers the finest seafood in Natal."
     },
@@ -50,7 +50,7 @@
       "address": "444 Renewable Road, Natal, RN, Brazil",
       "phone": "+55 84 7777-8888",
       "website": "https://www.natalgreenenergy.com",
-      "image": "company6.jpg",
+      "image": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
       "membership_level": "Gold",
       "other_info": "Natal Green Energy is a leader in sustainable energy solutions for Natal and the region."
     },
@@ -59,7 +59,7 @@
       "address": "999 Health Avenue, Natal, RN, Brazil",
       "phone": "+55 84 6666-9999",
       "website": "https://www.natalhealthclinic.com",
-      "image": "company7.jpg",
+      "image": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
       "membership_level": "Bronze",
       "other_info": "Your trusted health partner in Natal, providing high-quality medical care and services."
     },
@@ -68,7 +68,7 @@
       "address": "789 Beachfront Road, Natal, RN, Brazil",
       "phone": "+55 84 8888-7777",
       "website": "https://www.tropicalparadisetours.com",
-      "image": "company8.jpg",
+      "image": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
       "membership_level": "Gold",
       "other_info": "Discover the beauty of Natal with Tropical Paradise Tours, offering guided tours and adventures."
     },
@@ -77,9 +77,10 @@
       "address": "567 Creative Avenue, Natal, RN, Brazil",
       "phone": "+55 84 9999-3333",
       "website": "https://www.nataldesignstudio.com",
-      "image": "company9.jpg",
+      "image": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
       "membership_level": "Silver",
       "other_info": "Natal Design Studio brings creativity and innovation to your design and branding needs in Natal."
     }
   ]
 }
+
