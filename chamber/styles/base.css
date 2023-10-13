@@ -400,7 +400,6 @@ div.hero-image {
     margin-left: 20px;
     padding: 20px;
     background-color: #fff;
-
 }
 
 .member-card {
@@ -408,6 +407,7 @@ div.hero-image {
     background-color: #eee;
     margin-left: 20px;
     grid-row: 20px;
+    height: 250px;
 }
 
 .member-card h2 {

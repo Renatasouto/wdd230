@@ -14,23 +14,31 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Itera sobre os membros e cria elementos HTML para exibi-los
             members.forEach(member => {
-                const memberDiv = document.createElement("div");
-                memberDiv.classList.add("member-card"); // Adicione uma classe para estilização (opcional)
-
-                // Adicione classes de visualização com base na configuração atual
-                memberDiv.classList.add(currentView === "grid" ? "grid-view" : "list-view");
-
-                memberDiv.innerHTML = `
-                    <h2>${member.name}</h2>
-                    <p>Address: ${member.address}</p>
-                    <p>Phone: ${member.phone}</p>
-                    <p>Website: <a href="${member.website}" target="_blank">${member.website}</a></p>
-                    <p>Membership Level: ${member.membership_level}</p>
-                    <p>Other Info: ${member.other_info}</p>
-                `;
-
-                membersContainer.appendChild(memberDiv);
-            });
+              const memberDiv = document.createElement("div");
+              memberDiv.classList.add("member-card"); // Adicione uma classe para estilização (opcional)
+          
+              // Adicione classes de visualização com base na configuração atual
+              memberDiv.classList.add(currentView === "grid" ? "grid-view" : "list-view");
+          
+              // Crie a tag <img> com a imagem do membro
+              const img = document.createElement("img");
+              img.src = member.image; // Use a URL da imagem do JSON
+              img.alt = member.name; // Use o nome do membro como texto alternativo
+              img.style.maxWidth = "100%"; // Define uma largura máxima para a imagem
+          
+              memberDiv.innerHTML = `
+                  <div class="member-image">${img.outerHTML}</div>
+                  <h2>${member.name}</h2>
+                  <p>Address: ${member.address}</p>
+                  <p>Phone: ${member.phone}</p>
+                  <p>Website: <a href="${member.website}" target="_blank">${member.website}</a></p>
+                  <p>Membership Level: ${member.membership_level}</p>
+                  <p>Other Info: ${member.other_info}</p>
+              `;
+          
+              membersContainer.appendChild(memberDiv);
+          });
+          
         })
         .catch(error => console.error(error));
 
