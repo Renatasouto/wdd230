@@ -1,9 +1,9 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const membersContainer = document.getElementById('members-container');
     const gridButton = document.getElementById('grid');
     const listButton = document.getElementById('list');
-    
-    const membersData = [
+
+    let membersData = [
         {
             "name": "Natal Tech Solutions",
             "address": "123 Tech Street, Natal, RN, Brazil",
@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
             "image": "https://raw.githubusercontent.com/Renatasouto/wdd230/main/chamber/images/icons8-sun-100.png",
             "membership_level": "Silver",
             "other_info": "Enjoy the beautiful beaches of Natal at Sunrise Beach Resort, your perfect getaway in paradise."
-          },
-          {
+        },
+        {
             "name": "Natal Fresh Farms",
             "address": "789 Green Road, Natal, RN, Brazil",
             "phone": "+55 84 5555-5555",
@@ -30,8 +30,8 @@ document.addEventListener('DOMContentLoaded', function() {
             "image": "https://raw.githubusercontent.com/Renatasouto/wdd230/main/chamber/images/icons8-fresh-64.png",
             "membership_level": "Bronze",
             "other_info": "Natal Fresh Farms is your source for the freshest locally grown produce in Natal and surrounding areas."
-          },
-          {
+        },
+        {
             "name": "Golden Star Construction",
             "address": "321 Builder's Lane, Natal, RN, Brazil",
             "phone": "+55 84 4444-3333",
@@ -39,8 +39,8 @@ document.addEventListener('DOMContentLoaded', function() {
             "image": "https://raw.githubusercontent.com/Renatasouto/wdd230/main/chamber/images/icons8-star-64.png",
             "membership_level": "Platinum",
             "other_info": "Building dreams in Natal, Golden Star Construction is your reliable construction partner for quality projects."
-          },
-          {
+        },
+        {
             "name": "Natal Seafood Co.",
             "address": "555 Marina Drive, Natal, RN, Brazil",
             "phone": "+55 84 2222-1111",
@@ -48,8 +48,8 @@ document.addEventListener('DOMContentLoaded', function() {
             "image": "https://raw.githubusercontent.com/Renatasouto/wdd230/main/chamber/images/icons8-lobster-48.png",
             "membership_level": "Silver",
             "other_info": "Bringing the taste of the sea to your plate, Natal Seafood Co. offers the finest seafood in Natal."
-          },
-          {
+        },
+        {
             "name": "Natal Green Energy",
             "address": "444 Renewable Road, Natal, RN, Brazil",
             "phone": "+55 84 7777-8888",
@@ -57,8 +57,8 @@ document.addEventListener('DOMContentLoaded', function() {
             "image": "https://raw.githubusercontent.com/Renatasouto/wdd230/main/chamber/images/icons8-flash-on-48.png",
             "membership_level": "Gold",
             "other_info": "Natal Green Energy is a leader in sustainable energy solutions for Natal and the region."
-          },
-          {
+        },
+        {
             "name": "Natal Health Clinic",
             "address": "999 Health Avenue, Natal, RN, Brazil",
             "phone": "+55 84 6666-9999",
@@ -66,8 +66,8 @@ document.addEventListener('DOMContentLoaded', function() {
             "image": "https://raw.githubusercontent.com/Renatasouto/wdd230/main/chamber/images/icons8-health-50.png",
             "membership_level": "Bronze",
             "other_info": "Your trusted health partner in Natal, providing high-quality medical care and services."
-          },
-          {
+        },
+        {
             "name": "Tropical Paradise Tours",
             "address": "789 Beachfront Road, Natal, RN, Brazil",
             "phone": "+55 84 8888-7777",
@@ -75,8 +75,8 @@ document.addEventListener('DOMContentLoaded', function() {
             "image": "https://raw.githubusercontent.com/Renatasouto/wdd230/main/chamber/images/icons8-tropical-100.png",
             "membership_level": "Gold",
             "other_info": "Discover the beauty of Natal with Tropical Paradise Tours, offering guided tours and adventures."
-          },
-          {
+        },
+        {
             "name": "Natal Design Studio",
             "address": "567 Creative Avenue, Natal, RN, Brazil",
             "phone": "+55 84 9999-3333",
@@ -84,11 +84,20 @@ document.addEventListener('DOMContentLoaded', function() {
             "image": "https://raw.githubusercontent.com/Renatasouto/wdd230/main/chamber/images/icons8-studio-61.png",
             "membership_level": "Silver",
             "other_info": "Natal Design Studio brings creativity and innovation to your design and branding needs in Natal."
-          }
-
+        }
         // Adicione mais membros aqui...
     ];
-    
+
+    // Carrega dados dos membros a partir do arquivo JSON
+    const linksURL = "https://renatasouto.github.io/wdd230/chamber/data/members.json";
+    fetch(linksURL)
+        .then(response => response.json())
+        .then(data => {
+            membersData = data.members;
+            generateGridHTML(); // Atualize a exibição quando os dados forem carregados
+        })
+        .catch(error => console.error(error));
+
     function generateMemberCard(member) {
         return `
             <div class="member-card">
@@ -97,36 +106,40 @@ document.addEventListener('DOMContentLoaded', function() {
                 <a href="${member.website}" target="_blank" class="external-link-button">To Know More</a>
             </div>
         `;
-        
     }
-    
+
     function generateMemberList(member) {
         return `
             <div class="member-list">
                 <h3>${member.name}</h3>
                 <p>${member.address}</p>
-                <p>Phone: ${member.phone}</p>
-                <p>Website: <a href="${member.website}" target="_blank">${member.website}</a></p>
-                <p>Membership Level: ${member.membership_level}</p>
-                <p>${member.other_info}</p>
+                <p>${member.phone}</p>
+                <a href="${member.website}" target="_blank">${member.website}</a>
+                <p>${member.membership_level}</p>
+                
+                
             </div>
         `;
     }
-    
+
     function generateGridHTML() {
         const membersHTML = membersData.map(member => generateMemberCard(member)).join('');
         membersContainer.innerHTML = membersHTML;
+        membersContainer.classList.remove('list-view'); // Remove a classe 'list-view' se estiver presente
+        membersContainer.classList.add('grid-view'); // Adicione a classe 'grid-view'
     }
     
     function generateListHTML() {
         const membersHTML = membersData.map(member => generateMemberList(member)).join('');
         membersContainer.innerHTML = membersHTML;
-        membersContainer.classList.add('list-view'); // Adicione esta linha
+        membersContainer.classList.remove('grid-view'); // Remove a classe 'grid-view' se estiver presente
+        membersContainer.classList.add('list-view'); // Adicione a classe 'list-view'
     }
     
     gridButton.addEventListener('click', generateGridHTML);
     listButton.addEventListener('click', generateListHTML);
     
+
     // Inicialmente, carregue a exibição de grade
     generateGridHTML();
 });

@@ -99,13 +99,17 @@
 	
 	}
 	
-	.member-card {
-		border: 1px solid rgba(0, 0, 0, 0.1);
-		background-color: #eee;
-		margin-left: 20px;
-		grid-row: 20px;
+	div#members-container.grid-view {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
 	}
-	
+
+	.grid-view .member-card {
+		border: 1px solid #ddd;
+		padding-top:20px;
+		padding-bottom: 150px;
+		background-color: #a6a6a6;
+	}
 }
 
 /* large view navigation ************************************/
