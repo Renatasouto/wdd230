@@ -23,6 +23,7 @@
 </head>
 <body>
     <header>
+        
         <nav>
             <button id="menu" aria-label="Open the Hamburger Menu in a small view"></button>
             <ul class="navigation">
@@ -34,19 +35,24 @@
         </nav>
         <div class="hero-image"></div>
     </header>
-   
+    <div id="banner" class="banner">
+        <div class="banner-content">
+            <span>Join us for the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</span>
+            <button id="close-banner" class="close-button" aria-label="Close banner">×</button>
+        </div>
+    </div>
     <section class="cta-section">
         <h1>Natal Chamber of Commerce</h1>
         <h2>Join the Chamber of Commerce</h2>
         <p>Join us to grow your business and empower the community.</p>
         <a class="cta-button" href="https://renatasouto.github.io/wdd230/chamber/join.html">Join Now</a>
-    </section>
+    </section>  
     <main>
         <section class="card">
             <h2>Current Events</h2>
             <ul class="event-list">
                 <li>
-                    <h3>Annual Gala Dinner</h3>
+                    <h3 class="h3ads">Annual Gala Dinner</h3>
                     <p>Date: October 10, 2023</p>
                     <p>Location: Natal, Brazil</p>
                     <div class="event-description">
@@ -55,10 +61,9 @@
                         <p class="event-description-hidden" style="display: none;"><br>Join us for our glamorous Annual Gala Dinner.<br>It's a night of elegance, fine dining, and entertainment.<br>Celebrate with us and make memories at this remarkable event!<br>For more information, call 000-0000-00000.</p>
                     </div>
                     <br>
-                    <hr>
                 </li>
                 <li>
-                    <h3>Professional Development Workshop</h3>
+                    <h3 class="h3ads">Professional Development Workshop</h3>
                     <p>Date: March 25, 2023</p>
                     <p>Location: Natal, Brazil</p>
                     <div class="event-description" id="event2-description">
@@ -69,36 +74,26 @@
                 </li>
             </ul>
         </section>
+        
         <section class="card">
             <h2>Weather</h2>
             <div class="weather-card" id="weather-card">
                 <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="Weather Icon" id="weather-icon">
                 <p id="temperature"></p>
+                <br>
+                <p id="weather-description"></p>
+                <br>
                 <p id="location"></p>
+                <br>
+                <p id="forecast-day-1"></p>
+                <p id="forecast-day-2"></p>
+                <p id="forecast-day-3"></p>
             </div>
         </section>
     </main>
     <section class="spotlights-section">
-        <h2>Company Spotlights</h2>
-        <div class="spotlight">
-            <img src="/chamber/images/staff.png" alt="Company 1 Logo">
-            <h3>Neves</h3>
-            <p>A leading provider of innovative solutions and services in Natal, RN.</p>
-            <a href="#" class="spotlight-link">Learn More</a>
-        </div>
-        <div class="spotlight">
-            <img src="/chamber/images/company.png" alt="Company 2 Logo">
-            <h3>ABC Enterprises</h3>
-            <p>Offering high-quality products and services for businesses in Natal, RN.</p>
-            <a href="#" class="spotlight-link">Learn More</a>
-        </div>
-        <div class="spotlight">
-            <img src="/chamber/images/insurancecompany.png" alt="Company 3 Logo">
-            <h3>Natal Tech Solutions</h3>
-            <p>Providing cutting-edge technology solutions to businesses for over a decade.</p>
-            <a href="#" class="spotlight-link">Learn More</a>
-        </div>
     </section>
+    
     <footer>
         <div>
             <p>&copy; <span id="currentYear">2023</span> | Renata Santiago | WDD230 Project | renata@gmail.com</p>
@@ -110,5 +105,7 @@
     <script src="../chamber/scripts/hamMenu.js"></script>
     <script src="../chamber/scripts/getDates.js"></script>
     <script src="../chamber/scripts/buttonEvents.js"></script>
+    <script src="../chamber/scripts/banner.js"></script>
+    <script src="../chamber/scripts/spotlight.js"></script>
 </body>
 </html>

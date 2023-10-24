@@ -9,6 +9,8 @@
 		display: grid;
 		grid-template-columns: 60% 40%;
 		grid-gap: 0;
+		padding-top: 15px;
+		padding-bottom: 15px;
 	}
 
 	figure:hover {
@@ -109,6 +111,82 @@
 		padding-top:20px;
 		padding-bottom: 150px;
 		background-color: #a6a6a6;
+	}
+
+	img#weather-icon {
+		width: 30%;
+		height: fit-content;
+		margin-top: 10px;
+	}
+	
+	p#temperature {
+		font-size: 20px;
+		margin-top: 0px;
+		
+	}
+	
+	p#forecast-day-1, p#forecast-day-2, p#forecast-day-3 {
+		font-size: 20px;
+		margin-top: 15px;
+		
+	}
+	
+	p#location, #weather-description {
+		font-size: 20px;
+		
+	}
+
+	div.spotlight {
+		background-color: #f9f9f9;
+		padding: 20px;
+		margin-bottom: 20px;
+		margin-top: 30px;
+		border-radius: 5px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		float: left;
+		box-sizing: border-box;
+		width: calc(33.33% - 20px);
+		height: 200px;
+	}
+		
+	.spotlight:not(:last-child) {
+		margin-right: 20px;
+	}
+	
+	.spotlights-section .spotlight:last-child {
+		margin-right: 0;
+	}
+
+	.cta-section {
+		background-color: #f9f9f9;
+		text-align: center;
+		padding-bottom: 30px;
+		padding-top: 5px;
+		margin-top: 40px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	header {
+		background-size: cover;
+		background-position: center;
+		height: 500px;
+		text-align: center;
+		color: #fff;
+	}
+
+	div.hero-image {
+		background-image: url('../images/hero-image.jpeg');
+		height: 100%;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		margin-top: -31px;
+	}
+
+	img{
+		width:60px;
+		margin-top: 5px;
 	}
 }
 
