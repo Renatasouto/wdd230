@@ -43,7 +43,7 @@ function displaySpotlightMembers(membersData, numMembersToShow) {
       const nameElement = document.createElement('h3');
       const linkElement = document.createElement('a');
       linkElement.href = member.website;
-      linkElement.target = '_blank';
+      linkElement.target = '_blank'; // Abre em uma nova guia
       linkElement.textContent = member.name;
       nameElement.appendChild(linkElement);
 
@@ -53,6 +53,11 @@ function displaySpotlightMembers(membersData, numMembersToShow) {
       const buttonElement = document.createElement('button');
       buttonElement.className = 'more-info-button';
       buttonElement.textContent = 'To Know More';
+
+      // Adicione um evento de clique para abrir o link do membro
+      buttonElement.addEventListener('click', () => {
+        window.open(member.website, '_blank');
+      });
 
       spotlightElement.appendChild(imgElement);
       spotlightElement.appendChild(nameElement);
@@ -75,6 +80,5 @@ function loadSpotlightMembers() {
       console.error("Erro ao carregar JSON de membros:", error);
     });
 }
-
 // Chame a função para carregar e exibir membros de destaque na página
 loadSpotlightMembers();
