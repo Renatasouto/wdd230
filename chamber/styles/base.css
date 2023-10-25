@@ -19,7 +19,6 @@ header h1 {
 
 header p {
     font-size: 18px;
-
 }
 
 nav {
@@ -87,7 +86,6 @@ body {
     content: "❎";
 }
 
-/* Navegação móvel */
 .navigation {
     display: flex;
     flex-direction: column;
@@ -97,7 +95,7 @@ body {
 }
 
 .navigation li {
-    display:none;
+    display: none;
 }
 
 .navigation li a {
@@ -119,7 +117,7 @@ body {
     width: 100%;
 }
 
-.open li a {
+open li a {
     display: block;
     margin: -10px;
 }
@@ -128,6 +126,8 @@ button#menu {
     position: inherit;
     padding: 0%;
     margin: 2%;
+    width: 44px;
+    height: 44px;
 }
 
 #lastModified {
@@ -167,6 +167,8 @@ button#menu {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    width: 44px;
+    height: 44px;
 }
 
 .cta-button:hover {
@@ -180,7 +182,6 @@ button#menu {
     margin: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
-    
 }
 
 .sidebar {
@@ -241,8 +242,13 @@ main {
     display: grid;
 }
 
-img{
-    width:60px;
+img {
+    width: 60px;
+    margin-top: 30px;
+}
+
+.img-container {
+    width: 300px;
     margin-top: 30px;
 }
 
@@ -262,9 +268,9 @@ img{
 }
 
 figure {
-   align-items: center;
-   justify-content: center;
-   margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 #visit-message {
@@ -272,7 +278,6 @@ figure {
     font-family: Arial, Helvetica, sans-serif;
     padding: 5%;
     font-size: large;
-    
 }
 
 div.spotlight-template {
@@ -303,10 +308,14 @@ h1 {
     margin-left: 10px;
 }
 
+#h1discover {
+    margin-top: -100px;
+}
+
 form {
     margin-top: 30px;
     margin-bottom: 30px;
-    max-width: 600px; 
+    max-width: 600px;
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
@@ -335,7 +344,7 @@ form select {
 }
 
 form button[type="submit"] {
-    background-color: #009688; 
+    background-color: #009688;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -344,11 +353,10 @@ form button[type="submit"] {
     cursor: pointer;
 }
 
-
 form input[required],
 form select[required],
 form textarea[required] {
-    border-color: #f44336; 
+    border-color: #f44336;
 }
 
 form select[name="membership-level"] {
@@ -420,7 +428,6 @@ div#members-container.list-view {
     grid-template-columns: 1fr;
 }
 
-
 .member-card {
     border: 1px solid rgba(0, 0, 0, 0.1);
     height: 200px;
@@ -455,24 +462,17 @@ div#members-container.list-view {
 
 .grid-view {
     display: grid;
-    grid-gap: 10px; /* Espaço entre os elementos */
-    align-items: center;
+    grid-gap: 10px;
 }
-
-/* Estilize as visualizações dos elementos dentro do grid-view como desejado */
 
 .grid-view .member-card {
     border: 1px solid #ddd;
-    padding-top:20px;
+    padding-top: 20px;
     padding-bottom: 250px;
     background-color: #bbbbbb;
 }
 
-/* Classe para a visualização em lista */
-
-
-/* Estilize as visualizações dos elementos dentro do list-view como desejado */
-.list-view  {
+.list-view {
     width: 100%;
     padding: 10px;
     border: 1px solid #ddd;
@@ -482,49 +482,46 @@ div#members-container.list-view {
 
 .member-list {
     display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	margin: 0;
-	padding: 0.25rem;
-    justify-content:space-between;
-    border: black solid 2px
-    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0.25rem;
+    justify-content: space-between;
+    border: black solid 2px;
 }
 
-
-/* Estilize o conteúdo das colunas conforme necessário */
 .list-view .member-card h2 {
     font-size: medium;
 }
 
 .menu {
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 0.5rem;
-	background-color: #8CB7DC;
-	text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #8CB7DC;
+    text-align: center;
     margin-top: 30px;
 }
 
 .menu button {
-	padding: 1rem;
-	font-weight: 700;
+    padding: 1rem;
+    font-weight: 700;
 }
 
-#titleh1 { 
-    margin-top: 100px;
+#titleh1 {
+    margin-top: -150px;
 }
 
 h3 {
     display: flex;
 }
+
 .member-card .more-info {
     display: none;
 }
 
-/* Estilo para a div do banner */
 #banner {
-    display: none; /* Inicialmente, o banner está oculto */
-    background-color: #007bff; /* Cor de fundo do banner */
-    color: #fff; /* Cor do texto do banner */
+    display: none;
+    background-color: #007bff;
+    color: #fff;
     padding: 10px;
     text-align: center;
     position: fixed;
@@ -533,7 +530,6 @@ h3 {
     width: 100%;
 }
 
-/* Estilo para o botão de fechar o banner */
 #close-banner {
     background-color: transparent;
     color: #fff;
@@ -545,17 +541,14 @@ h3 {
     right: 10px;
 }
 
-/* Estilo para o texto do banner */
 .banner-content span {
     font-size: 18px;
     line-height: 1.4;
 }
 
-/* Estilo para o botão de fechar o banner (quando passa o mouse por cima) */
 #close-banner:hover {
-    color: #ff0000; /* Cor do botão muda quando o mouse passa por cima */
+    color: #ff0000;
 }
-
 
 @media (max-width: 768px) {
     form {
